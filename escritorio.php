@@ -45,12 +45,12 @@ get_template_part('header');
                 <p class="texto">Temos como principal objetivo a prestação de serviços juridicos de qualidade, alcançando sempre a justiça através do direito, respeitando sempre a ética e a moral.</p>
                 <p class="texto">Como missão, desejamos, através da ética, da moral e dos bons constumes, levar a todos os nossos clientes as melhores respostas e soluções a cada demanda seja ela judicial, administrativa ou apenas duvidas.</p>
                 <p class="texto">Os principais valores são a ética, a eficiência, o compromisso com o trabalho e com os clientes, o trabalho em equipe, o respeito, e, acima de tudo, o respeito a Deus.</p>
-                    
+
             </div>
         </div>
 
     </section>
-        
+
     <section id="sectionthree">
         <div class="box">
             <div class="card">1</div>
@@ -60,7 +60,7 @@ get_template_part('header');
             <div class="card">5</div>
         </div>
     </section>
-    
+
     
 </body>
 
