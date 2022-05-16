@@ -1,0 +1,49 @@
+#banner {
+    
+    .banner-desk {
+        display: none;
+    }
+    img {
+        width: 100%;
+        padding: auto;
+    }
+    .slick-slide {
+        height: max-content;
+    }
+    .slick-dots {
+        li.slick-active button:before {
+            color: transparent;
+        }
+        li {
+            opacity: 0.3;
+            background: #cf2c2c;
+            border-radius: 100%;
+            width: 12px;
+            height: 12px;
+            button:before {
+                color: transparent;
+            }
+        }  
+        .slick-active {
+            opacity: 1;
+        }
+    }
+
+    @media only screen and (min-width: 700px) {
+        .banner-desk {
+            display: block;
+        }
+
+        .banner-mob {
+            display: none;
+        }
+        .slick-dots {
+            li {
+                width: 20px;
+                height: 20px;
+            }  
+        }
+    
+    }
+
+}

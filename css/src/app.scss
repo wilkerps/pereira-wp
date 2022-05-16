@@ -1,0 +1,20 @@
+// Guttenberg and Block Editor Styles (columns, etc)
+@import "../../../../../wp-includes/css/dist/block-library/style.css";
+@import "./pages/_reset.scss";
+@import "./pages/_header.scss";
+@import "./pages/_banner.scss";
+@import "./pages/_sectionone.scss";
+@import "./pages/_sectiontwo.scss";
+@import "./pages/_sectionthree.scss";
+@import "./pages/_footer.scss";
+@import "./components/_componente-1.scss";
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  color: #929292;
+}
+body, html {
+  scroll-behavior: smooth;
+}
